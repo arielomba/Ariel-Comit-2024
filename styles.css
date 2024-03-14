@@ -29,37 +29,47 @@
   width: 685px;
   height: 520px;
   border-radius: 10%;
+  box-shadow: 0px 0px 20px 0px #000000;
 }
 
 .image2 {
   width: 410px;
   height: 245px;
+  border-radius: 3%;
+  box-shadow: 0px 0px 20px 0px #000000;
+
 }
 
 .image3{
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px #02000080;
+
 }
 
 .image4{
   width: 188px;
-  height: 159px;  
+  height: 159px;
+  border-radius: 3%;  
 }
 
 .image5{
   width: 858px;
   height: 455px;
+  border-radius: 3%;
 }
 
 .image6{
   width: 402px;
   height: 410px;
+  border-radius: 3%;
 }
 
 .image7{
   width: 40px;
   height: 40px;
+  border-radius: 3%;
 }
 
 .img_exp{
@@ -171,10 +181,9 @@ gap: 10px;
 .home_img{
   height: 100%;
   width: 60%;
-  display: flex;
   padding-top: 100px;
   padding-left: 50px;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .arts_conteiner{
