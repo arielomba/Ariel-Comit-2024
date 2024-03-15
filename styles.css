@@ -161,6 +161,12 @@ justify-content:center;
 background-color: #E5E5E5;
 }
 
+.nav_cont{
+  height: 100%;
+  display: flex;
+  padding-right: 3%;
+}
+
 .home_conteiner {
   height: 710px;
   display: flex;
