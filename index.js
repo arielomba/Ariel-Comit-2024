@@ -27,7 +27,7 @@ test.addEventListener(
     event.target.style.color = "purple";
 
     setTimeout(() => {
-      event.target.style.color = "";
+      event.target.style.color = "black";
     }, 500);
   },
   false,
@@ -41,7 +41,7 @@ test.addEventListener(
 
    
     setTimeout(() => {
-      event.target.style.color = "";
+      event.target.style.color = "black";
     }, 500);
   },
   false,
