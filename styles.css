@@ -19,6 +19,7 @@
   color: white;
 }
 
+
 /*-----------------Formatos de imagenes----------------------*/
 .image1 {
   width: 685px;
@@ -141,7 +142,6 @@ h6 {
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: #E5E5E5;
 }
 
 .nav_cont {
@@ -166,13 +166,11 @@ h6 {
   padding-left: 35%;
   gap: 3%;
   text-align: center;
-  background-color: #CA9277;
 }
 
 .home_img {
   padding-top: 5px;
   padding-left: 50px;
-  background-color: #77ACCA;
 }
 
 /*------------------------Seccion Artistas----------------------------*/
