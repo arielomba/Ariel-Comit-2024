@@ -1,14 +1,48 @@
-// Get the button element
-var buttons = document.getElementsById("buttons");
 
-// Add a mouseover event listener
-buttons.addEventListener('mouseover', () => {
-  // Change the button's background color
-  button.style.backgroundColor = '#2883b8';
-});
+/* var imagesize = document.getElementsById("imagesize")
 
-// Add a mouseout event listener
-buttons.addEventListener('mouseout', () => {
-  // Change the button's background color back to its original color
-  button.style.backgroundColor = '#77ACCA';
-});
+imagesize.addeventlistener ("click",() => {
+  img_increase 
+};
+
+function img_increase() {
+
+            document.getElementById("imagesize").style.width="130%";
+        } 
+if( imagesize === false)
+        function img_decrease()
+        {
+           document.getElementById("imagsize").style.width="100%";
+        }
+
+        const test = document.getElementById("test");
+ */
+
+var test = document.getElementById("test");
+
+test.addEventListener(
+  "mouseenter",
+  (event) => {
+  
+    event.target.style.color = "purple";
+
+    setTimeout(() => {
+      event.target.style.color = "";
+    }, 500);
+  },
+  false,
+);
+
+test.addEventListener(
+  "mouseover",
+  (event) => {
+   
+    event.target.style.color = "orange";
+
+   
+    setTimeout(() => {
+      event.target.style.color = "";
+    }, 500);
+  },
+  false,
+);

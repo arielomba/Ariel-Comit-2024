@@ -110,9 +110,6 @@ h6 {
 }
 
 /*------------------ Formatos Margenes de la paginas------------------*/
-header {
-  height: 180px;
-}
 
 .margenes {
   margin-left: 15%;
@@ -339,5 +336,10 @@ header {
 
 .button2:hover {
   background-color: #000000;
+  transition: 0.7s;
+}
+
+#hoverlink:hover {
+  text-decoration: underline;
   transition: 0.7s;
 }

@@ -19,7 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<!--------------------------------- Navbar ------------------------------------->
+    <!--------------------------------- Navbar ------------------------------------->
     <header class="color0">
         <div class="conteiner_nav">
             <div class="nav_img">
@@ -34,29 +34,29 @@
                             <span class="navbar-toggler-icon color0"></span>
                         </button>
                         <div class="collapse navbar-collapse color0" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="test">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#inico">
+                                    <a class="nav-link active" aria-current="page" href="#inico" id="hoverlink">
                                         <h5 class="arts">Inicio</h5>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#artistas">
+                                    <a class="nav-link active" aria-current="page" href="#artistas" id="hoverlink">
                                         <h5 class="arts">Artistas</h5>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#experiencia">
+                                    <a class="nav-link active" aria-current="page" href="#experiencia" id="hoverlink">
                                         <h5 class="arts">Experiencia</h5>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#descubre">
+                                    <a class="nav-link active" aria-current="page" href="#descubre" id="hoverlink">
                                         <h5 class="arts">Descubre</h5>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#videos">
+                                    <a class="nav-link active" aria-current="page" href="#videos" id="hoverlink">
                                         <h5 class="arts">Videos</h5>
                                     </a>
                                 </li>
@@ -76,13 +76,13 @@
 
     </header>
 
-<!--- Seccion Inicio --->
+    <!--- Seccion Inicio --->
     <main>
-        <section>
+        <section id="inico">
             <div class="home_conteiner color1">
                 <!----------- Texto------------->
                 <div clas="home_text">
-                    <h1 id="inico">Escucha,</h1>
+                    <h1>Escucha,</h1>
                     <h1>disfruta,</h1>
                     <h1>experimenta!</h1>
                     <div>
@@ -92,19 +92,19 @@
                                     <h5>MUCHO COSQUIN ROCK</h5>
                     </div>
                     <a href="https://cosquinrock.net/billetera/" target="_blank">
-                    <button type="button" class="button2">
-                        <h6 class="arts">Consigue tu entrada</h6>
-                    </button>
-                </a>
+                        <button type="button" class="button2">
+                            <h6 class="arts">Consigue tu entrada</h6>
+                        </button>
+                    </a>
                 </div>
                 <!---------- Imagen ----------->
                 <div class="home_img">
-                    <img class="imagen1" src="img/crt.png" alt="Imagen de encabezado" />              
+                    <img class="imagen1" src="img/crt.png" alt="Imagen de encabezado" id="imagesize" />
                 </div>
 
             </div>
         </section>
-<!--- Seccion Artista --->
+        <!--- Seccion Artista --->
         <section class="color2" id="artistas">
             <div class="arts_conteiner">
                 <div class="arts_text">
@@ -112,7 +112,7 @@
                     <h6 class="white">Más de 40 artistas nacionales e internacional en tres estadios deferentes, </h6>
                     <h6 class="white">tu decisión, tus gustos, tu identidad </h6>
                 </div>
-            <!------------ Carrusel ----------->
+                <!------------ Carrusel ----------->
                 <div class="arts_carousel">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-<!--- Seccion Experiencia --->
+        <!--- Seccion Experiencia --->
         <section class="color1" id="experiencia">
             <div class="exp_conteiner">
                 <!---------------Imagen ------------------>
@@ -163,28 +163,28 @@
                     </div>
                     <div>
                         <a href="https://cosquinrock.net/experiencias/" target="_blank">
-                        <button type="button" class="button2">
-                            <h6 class="arts">Infórmate acá</h6>
-                        </button>
-                    </a>
+                            <button type="button" class="button2">
+                                <h6 class="arts">Infórmate acá</h6>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-<!--- Seccion Descubre --->
+        <!--- Seccion Descubre --->
         <section class="color3" id="descubre">
             <div class="des_conteiner">
                 <h1 class="white">Descrubes mas</h1>
                 <h1 class="white">sobre Cosquín</h1>
                 <h1 class="white">Rock</h1>
                 <a href="https://cosquinrock.net/paraguay/" target="_blank">
-                <button type="button" class="button">
-                    <h6 class="arts">Empieza tu viaje</h6>
-                </button>
-            </a>
+                    <button type="button" class="button">
+                        <h6 class="arts">Empieza tu viaje</h6>
+                    </button>
+                </a>
             </div>
         </section>
-<!--- Seccion Videos --->
+        <!--- Seccion Videos --->
         <section id="videos">
             <div class="vid_conteiner color0">
                 <div class="text_center">
@@ -192,20 +192,19 @@
                     <h4>Los grandes momentos que hicieron historia en el Cosquín Rock</h4>
                     <h4>y consiguieron trascender en la historia</h4>
                     <a href="https://youtube.com/@CosquinRockOficial?si=oUcMTZENQGOhpH-P" target="_blank">
-                    <button type="button" class="button2">
-                        <h6 class="arts">Míralos acá y revívelos!</h6>
-                    </button>
-                        </a>
+                        <button type="button" class="button2">
+                            <h6 class="arts">Míralos acá y revívelos!</h6>
+                        </button>
+                    </a>
                 </div>
                 <div class="vid">
                     <iframe width="570" height="325" src="https://www.youtube.com/embed/VUMcETL6sx4?si=unp4YfOOucfT8v2L"
                         title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
             </div>
         </section>
- <!--- Seccion Opinion --->
+        <!--- Seccion Opinion --->
         <section class="color3">
             <div class="opi_conteiner">
                 <div>
@@ -222,7 +221,7 @@
                 </div>
             </div>
         </section>
-<!--- Seccion Pie --->
+        <!--- Seccion Pie --->
         <section class="color0">
             <div class="red_conteiner">
                 <div>
@@ -252,8 +251,7 @@
     <footer class="texenter color3"><small>
             <h4 class="white">Copyright @ COSQUÍN ROCK. All Rights Reserved.</h4>
         </small></footer>
+    <script scr="index.js" type></script>
 </body>
-
-<script scr="index.js"></script>
 
 </html>
